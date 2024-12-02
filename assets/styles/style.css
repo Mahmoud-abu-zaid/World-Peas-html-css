@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --main-color: #426b1f;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-order: #e6e6e6;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 112px;
+  width: 100%;
+  position: fixed;
+  background-color: var(--color-white);
+  z-index: 100000;
+}
+ul {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: center;
+  list-style: none;
+}
+li a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  color: var(--color-black);
+  text-align: center;
+  transition: 0.4s;
+}
+li a:hover {
+  color: var(--main-color);
+}
+nav input {
+  width: 126px;
+  height: 48px;
+  border: none;
+  font-size: 16px;
+  background-color: var(--main-color);
+  color: var(--color-white);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+nav input:hover {
+  background-color: var(--color-order);
+  color: var(--color-black);
+}
+nav h1 {
+  font-family: Newsreader;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  color: var(--main-color);
+}
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.text-center h2 {
+  width: 1020px;
+  font-family: "Newsreader", serif;
+  font-weight: 400;
+  font-size: 64px;
+  font-style: italic;
+  padding-bottom: 50px;
+}
+.text-center input {
+  width: 227px;
+  height: 64px;
+  border: none;
+  border-radius: 8px;
+  color: var(--color-white);
+  background-color: var(--main-color);
+  font-size: 20px;
+  transition: 0.4s;
+}
+.text-center input:hover {
+  background-color: var(--color-order);
+  color: var(--color-black);
+}
+.content-section2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img-vg {
+  padding-right: 30px;
+  width: 504px;
+  height: 693px;
+}
+.page-2 figure {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.page-2 figure figcaption img {
+  width: 780px;
+  height: 480px;
+}
+.page-2 figure figcaption p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: start;
+  width: 736px;
+}
+.page-2 figure figcaption span {
+  font-size: 14px;
+  line-height: 22.4px;
+  font-weight: 200;
+  color: #000000cc;
+}
+.page-3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.page-3 h4 {
+  width: 181px;
+  height: 22px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.4px;
+  padding-top: 70px;
+}
+.Our-products {
+  width: 822px;
+  height: 512px;
+  padding-top: 60px;
+}
+.Our-products p {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
